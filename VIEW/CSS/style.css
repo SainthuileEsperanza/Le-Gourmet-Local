@@ -1,0 +1,200 @@
+body {
+    background: #fff7ed;
+}
+header {
+    background-image: linear-gradient(180deg, rgba(255, 206, 213, 0.04), rgba(255, 206, 213, 0.33));
+}
+header img {
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+    min-width: 350px;
+}
+nav {
+    text-align: center;
+}
+@font-face {
+    font-family: 'MaPolice'; /* Nom que vous donnerez à la police */
+    src: url('../../fonts/FleurDeLeah-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+nav a {
+    text-decoration: none;
+    color: #ffced5;
+    font-family: 'MaPolice', sans-serif;
+    font-size: 80px;
+    -webkit-text-stroke: 1px #cead79;
+
+    display: inline-block;
+    padding: 5px 30px 55px 30px;
+}
+.decorationTexte, .decorationTexte2, .decorationTexte3 {
+    width: 3%;
+    margin-top: -160px;
+}
+.decorationTexte2 {
+    transform: scaleX(95%) scaleY(60%);
+}
+.decorationTexte {
+    transform: scaleX(65%) scaleY(60%);
+}
+.decorationTexte3 {
+    transform: scaleX(65%) scaleY(60%);
+}
+nav div {
+    margin-top: -2.5%;
+}
+nav div a:hover {
+    color: #ffedaf;
+    -webkit-text-stroke: 1px #ffced5;
+}
+
+.articlePresentation {
+    font-size: 150%;
+    background-image: linear-gradient(rgba(255, 206, 213, 0.33), rgba(255, 206, 213, 0.04));
+    padding: 5px 20px;
+    color: #b58c4b;
+}
+.sectionPresentation {
+    font-size: 20px;
+}
+
+@media (max-width: 1500px) {
+    .sectionPresentation h1, .sectionPresentation p {
+        text-align: center;
+    }
+
+}
+
+.articleMenu {
+    font-size: 150%;
+    background-image: linear-gradient(rgba(255, 206, 213, 0.18), rgba(255, 206, 213, 0.04));
+    padding: 50px 40px 100px;
+    color: #b58c4b;
+    border-radius: 12px;
+    display: block;
+    margin: 120px auto;
+    align-content: center;
+    max-width: 1200px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    min-height: calc(100vh - 140px);
+}
+
+
+.articleMenu h2 {
+    color: #b58c4b;
+    font-family: 'MaPolice', sans-serif;
+    font-size: 36px;
+    margin-top: 0;
+}
+
+.articleMenu .menuCategorie h3 {
+    color: #b58c4b;
+    font-family: 'MaPolice', sans-serif;
+    margin-bottom: 10px;
+}
+.menuCategorie h3 {
+    font-size: 175%;
+}
+
+.articleMenu ul {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+.articleMenu li {
+    margin: 15px 0;
+}
+
+.articleMenu li span {
+    display: block;
+    font-weight: bold;
+}
+
+.articleMenu li p {
+    margin-top: 3px;
+    font-weight: normal;
+}
+
+/*Formulaire*/
+
+.sectionForm, .sectionGalerie {
+    background-image: linear-gradient(rgba(255, 206, 213, 0.33), rgba(255, 206, 213, 0.04));
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 0 auto 2%;
+    gap: 2rem;
+    color: #b58c4b;
+    font-size: 125%;
+}
+input, textarea {
+    margin-top: 1%;
+}
+
+form input, form textarea {
+    border: 2px solid #e3ba87;
+    background-image: linear-gradient(-90deg, rgba(255, 201, 201, 0.21), rgba(255, 251, 251, 0.47), rgba(255, 201, 201, 0.21));
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 5px 5px rgba(206, 183, 116, 0.24);
+}
+textarea {
+    height: 120px;
+}
+input[placeholder], textarea[placeholder] {
+    font-size: 18px;
+}
+label {
+    margin-bottom: -3%;
+}
+
+footer {
+    background-image: linear-gradient(rgba(255, 251, 251, 0.47), rgba(255, 201, 201, 0.21));
+    text-align: center;
+    padding: 20px;
+    color: #d89991;
+    font-size: 18px;
+    border-top: 1px dashed #e6bd45;
+}
+input[value="Valider"] {
+    width: 250px;
+    margin: 0 auto;
+    background-color: #fff4f8;
+    color: #b44252;
+    font-size: 110%;
+}
+input[value="Valider"]:hover {
+    color: #ce6877;
+    background-color: rgba(255, 206, 213, 0.52);
+    cursor: pointer;
+    font-size: 140%;
+}
+
+h5 {
+    margin: 0;
+    font-size: 24px;
+    color: #d1596a;
+    text-decoration: underline;
+}
+
+#messageConfirmation {
+    color: #db7685;
+    text-align: center;
+    font-size: 40px;
+    margin: 100px auto 350px;
+}
+#imageRestaurant {
+    display: block;
+    margin: 0 auto 50px;
+    border-radius: 10px;
+    border-top: 5px dashed #ce6877;
+    border-bottom: 5px dashed #ce6877;
+    box-shadow: 8px 8px 10px rgba(171, 86, 99, 0.34);
+    outline: 3px solid #c26767;
+    outline-offset: 3px;
+}
+
